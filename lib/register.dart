@@ -80,7 +80,7 @@ class _RegisterPageState extends State<RegisterPage> {
               TextField(
                 controller: usernameController,
                 decoration: const InputDecoration(hintText: "กรอกอีเมล์"),
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.email,
               ),
               const SizedBox(
                 height: 20,
@@ -90,7 +90,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 controller: passController,
                 obscureText: true,
                 decoration: const InputDecoration(hintText: "กรอกรหัสผ่าน"),
-                keyboardType: TextInputType.number,
+              
               ),
               const SizedBox(
                 height: 20,
@@ -102,7 +102,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 obscureText: true,
                 decoration:
                     const InputDecoration(hintText: "กรอกยืนยันรหัสผ่าน"),
-                keyboardType: TextInputType.number,
+              
               ),
               const SizedBox(
                 height: 20,
@@ -111,7 +111,7 @@ class _RegisterPageState extends State<RegisterPage> {
               TextField(
                 controller: nameController,
                 decoration: const InputDecoration(hintText: "กรอกชื่อ"),
-                keyboardType: TextInputType.number,
+              
               ),
               const SizedBox(
                 height: 20,

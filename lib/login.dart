@@ -44,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
                 controller: usernameController,
                 decoration:
                     const InputDecoration(hintText: "กรอกอีเมล์ผู้ใช้งาน"),
-                keyboardType: TextInputType.number,
+                
               ),
               const SizedBox(
                 height: 20,
@@ -53,8 +53,8 @@ class _LoginPageState extends State<LoginPage> {
               TextField(
                 controller: passController,
                 obscureText: true,
-                decoration: const InputDecoration(hintText: "กรอกรหัสผ่าน"),
-                keyboardType: TextInputType.number,
+              
+           
               ),
               const SizedBox(
                 height: 20,
