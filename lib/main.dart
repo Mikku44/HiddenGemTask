@@ -171,7 +171,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
         floatingActionButton: FloatingActionButton(
-          backgroundColor: Colors.black,
+          backgroundColor: const Color.fromARGB(255, 255, 255, 255),
           onPressed: () {
             logined = false;
             Navigator.pushReplacement(
