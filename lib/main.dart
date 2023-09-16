@@ -182,6 +182,7 @@ class _MyHomePageState extends State<MyHomePage> {
           tooltip: 'Logout',
           child: const Icon(
             Icons.logout_rounded,
+            color: Colors.black,
           ), 
         ));
   }
