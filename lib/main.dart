@@ -56,7 +56,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  
   double _bmi = 0;
   String criteria = 'เกณฑ์ที่วัดได้';
   final PageController controller = PageController();
@@ -182,7 +182,7 @@ class _MyHomePageState extends State<MyHomePage> {
           tooltip: 'Logout',
           child: const Icon(
             Icons.logout_rounded,
-          ), // This trailing comma makes auto-formatting nicer for build methods.
+          ), 
         ));
   }
 }

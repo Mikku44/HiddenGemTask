@@ -80,7 +80,7 @@ class _RegisterPageState extends State<RegisterPage> {
               TextField(
                 controller: usernameController,
                 decoration: const InputDecoration(hintText: "กรอกอีเมล์"),
-                keyboardType: TextInputType.email,
+                keyboardType: TextInputType.emailAddress,
               ),
               const SizedBox(
                 height: 20,

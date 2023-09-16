@@ -53,7 +53,8 @@ class _LoginPageState extends State<LoginPage> {
               TextField(
                 controller: passController,
                 obscureText: true,
-              
+               decoration:
+                    const InputDecoration(hintText: "กรอกรหัสผู้ใช้งาน"),
            
               ),
               const SizedBox(
